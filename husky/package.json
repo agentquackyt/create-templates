@@ -1,0 +1,19 @@
+{
+  "name": "@bun-examples/create-husky",
+  "version": "1.0.0",
+  "description": "Create a new Husky project using 'bun create husky'",
+  "dependencies": {
+    "husky-routing": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch index.ts"
+  },
+  "module": "index.ts",
+  "bun-create": {
+    "start": "bun run index.ts"
+  }
+}
